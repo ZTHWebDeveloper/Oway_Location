@@ -1,0 +1,19 @@
+{
+  "name": "elasticsearch_docker_nodejs",
+  "version": "1.0.0",
+  "description": "Elasticsearch with docker searching by nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Than Myat Soe",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "elasticsearch": "^16.7.1",
+    "express": "^4.17.1",
+    "get-json": "^1.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
